@@ -5,5 +5,6 @@ module GemMiniTest
     def hello(name)
       return "hello " + name
     end
+
   end
 end
