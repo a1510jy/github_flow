@@ -5,7 +5,11 @@ class GemMiniTestTest < Minitest::Test
     refute_nil ::GemMiniTest::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def setup
+    @myclass = GemMiniTest::GMT.new
+  end
+
+  def test_hello
+    assert_equal "hello git", @myclass.hello("git") 
   end
 end
