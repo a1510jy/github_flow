@@ -1,6 +1,6 @@
 # github_flow
 member:
- ichigawa
+ ishikawa
  yin
 date:
  2015-07-25
