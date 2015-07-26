@@ -1,5 +1,10 @@
 require "gem_mini_test/version"
 
 module GemMiniTest
-  # Your code goes here...
+  class GMT
+    def hello(name)
+      return "hello " + name
+    end
+
+  end
 end
